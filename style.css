@@ -114,15 +114,23 @@ body{
 }
 
 .container{
-    width: 80px;
+    text-align: center;
+    width: 120px;
     padding: 3vh;
     color: #D9D9D9;
-    background-color: #193537;
+    background-color: #192137;
     margin: 2vh 0;
     border-radius: 5px;
 }
+.container img{
+    /* align-items: center; */
+    margin-bottom: 2vh;
+    width: 80px;
+    height: 80px;
+}
 
 .container h1{
+    margin-bottom: 2vh;
     font-size: 15px;
 }
 
@@ -185,7 +193,7 @@ body{
     width: 80px;
     padding: 3vh;
     color: #D9D9D9;
-    background-color: #193537;
+    background-color: #192137;
     margin: 2vh;
     border-radius: 5px;
 }   
