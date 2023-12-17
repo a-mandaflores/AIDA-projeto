@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:wght@400;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+body{
+    background-color: #FAF4F4;
+    color: #193537;
+}
+
+/* --------------- menu bar ----------- */
+.menu{
+    background-color: #0277B5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .logo{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-left: 20%;
+}
+
+.menuBar{
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20%;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+
+}
+.menuBar li{
+    cursor: pointer;
+    transition: .5s;
+    margin: 1vh;
+}
+.menuBar li:hover {
+    color: #003754;
+}
+
+/* section 1 com texto e imagem */
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10vh 20%    
+}
+
+.section .sectionText{
+    width: 50vh;
+    font-size: 16px;
+}
+.section .sectionImg{
+    margin: 5vh;
+    text-align: center;
+    width: 30vh;
+}
+
+.section button{
+    width: 20vh;
+    border-radius: 50px;
+    padding: 2vh;
+    margin-top: 3vh;
+    border: none;
+    transition: .5s;
+}
+
+.section .uniesp{
+    font-weight: 600;
+    color: white;
+    background-color: #0277B5;
+}
+.section .uniesp:hover{
+    color: white;
+    background-color: #003754;
+}
+
+.section .quemSomos{
+    color:  #0277B5;
+    background-color: #D9D9D9;
+}
+
+/* ---------projetos------------- */
+
+.projetos{
+    margin: 0 20%;
+}
+.projetos h1{
+    text-align: center;
+    color: #0277B5;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 3vh;
+}
+
+/* -----------container projetos------ */
+
+.projetosSection{
+    margin: 8vh 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    width: 80px;
+    padding: 3vh;
+    color: #D9D9D9;
+    background-color: #193537;
+    margin: 2vh 0;
+    border-radius: 5px;
+}
+
+.container h1{
+    font-size: 15px;
+}
+
+.container p{
+    font-size: 10px;
+}
+
+/* -------------artigos-------- */
+
+.artigos{
+    background-color: rgb(2,119,181,.2);
+    color: white;
+    padding: 5vh 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.artigos h1{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5vh;
+    text-shadow: rgb(0,0,0,.5) .1rem .1rem .7rem ;
+}
+
+.artigos h2{
+    background-color: #0277B5;
+    padding: 3vh;
+    margin: 1vh;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.artigos h2:hover{
+    background-color: rgb(2,119,181,.5);
+}
+
+/* ---profs---- */
+
+.Professores{
+    
+    margin: 8vh 20%;
+
+}
+
+.Professores .res{
+    margin-bottom: 3vh;
+    color: #0277B5;
+    text-align: center;
+    font-size: 20px;
+}
+.profs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerProfs{
+    width: 80px;
+    padding: 3vh;
+    color: #D9D9D9;
+    background-color: #193537;
+    margin: 2vh;
+    border-radius: 5px;
+}   
+
+.containerProfs h1{
+    font-size: 15px;
+}
+.containerProfs p{
+    font-size: 10px;
+}
+
+/* -----faleconosco---- */
+
+.faleConosco{
+    background-color: #0277B5;
+    padding: 5vh 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.faleConosco h1{
+    margin: 5vh;
+    width: 100px;
+    color: white;
+    font-size: 20px;
+    border-right: solid 1px white;
+}
+.forms{
+    width: 50%;
+}
+
+.nome, .telefone{
+    color: #0277B5;
+    width: 100px;
+    
+}
+.email{
+    margin-top: 1vh;
+    width: 100%;
+}
+
+.assunto{
+    margin: 1vh 0;
+    width: 75%;
+    height: 50px;
+}
+
+.enviar{
+    height: 50px;
+    width: 20%;
+}
